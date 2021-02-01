@@ -1,5 +1,6 @@
 ﻿@startuml
 
+actor User
 
 User -> Program : Register(\n name, birthYear, \n club, gender)
 Program -> Participant: new Participant(\n name, birthYear, \n club, gender)
