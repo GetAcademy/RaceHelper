@@ -1,0 +1,12 @@
+﻿@startuml
+
+
+User -> Program : Register(\n name, birthYear, \n club, gender)
+Program -> Participant: new Participant(\n name, birthYear, \n club, gender)
+Participant -> Run: genderObj = \n GetGender(gender)
+Participant -> Run: ageGroupObj = \n GetAgeGroup(birthYear)
+Participant -> Run: clubObj = \n GetOrCreateClub(club)
+
+
+
+@enduml

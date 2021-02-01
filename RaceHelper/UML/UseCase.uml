@@ -1,0 +1,11 @@
+﻿@startuml
+
+left to right direction
+
+Admin --> (Register)
+Admin --> (Get start list)
+Admin --> (Get result list)
+(Get start list) <-- Participant
+(Get result list) <-- Participant
+
+@enduml

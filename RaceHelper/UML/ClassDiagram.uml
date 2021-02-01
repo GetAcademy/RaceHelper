@@ -1,0 +1,31 @@
+﻿@startuml
+
+
+class Participant {
+  name
+}
+
+class Registration {
+  startNo
+  result
+}
+
+class AgeGroup {
+}
+
+class Gender {
+}
+
+class Club {
+}
+
+class Run {
+}
+
+Registration -- Participant
+Participant -- Club
+Registration -- AgeGroup
+Gender -- Participant
+Race --* Registration
+
+@enduml
