@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceHelper", "RunHelper\RaceHelper.csproj", "{FC23F686-8E7E-4974-BFDB-09DADB559286}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RaceHelper", "RaceHelper\RaceHelper.csproj", "{D79E8A34-5CF7-46CE-8266-E7633BC5BD7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC23F686-8E7E-4974-BFDB-09DADB559286}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC23F686-8E7E-4974-BFDB-09DADB559286}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC23F686-8E7E-4974-BFDB-09DADB559286}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC23F686-8E7E-4974-BFDB-09DADB559286}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79E8A34-5CF7-46CE-8266-E7633BC5BD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79E8A34-5CF7-46CE-8266-E7633BC5BD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79E8A34-5CF7-46CE-8266-E7633BC5BD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79E8A34-5CF7-46CE-8266-E7633BC5BD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

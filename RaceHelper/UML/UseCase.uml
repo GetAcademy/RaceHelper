@@ -3,9 +3,10 @@
 left to right direction
 
 Admin --> (Register)
-Admin --> (Get start list)
-Admin --> (Get result list)
-(Get start list) <-- Participant
-(Get result list) <-- Participant
+Admin --> (Get start list/result list)
+(Get start list/result list) <-- Participant
+(Get start list/result list) <|--down-- (Get list alfabetic by last name)
+(Get start list/result list) <|--down-- (Get list grouped by club)
+(Get start list/result list) <|--down-- (Get list grouped by age group and gender)
 
 @enduml

@@ -19,7 +19,7 @@ class Gender {
 class Club {
 }
 
-class Run {
+class Race {
 }
 
 Registration -- Participant
@@ -27,5 +27,8 @@ Participant -- Club
 Registration -- AgeGroup
 Gender -- Participant
 Race --* Registration
+Race --* AgeGroup
+Race --* Gender
+Race --* Club
 
 @enduml
